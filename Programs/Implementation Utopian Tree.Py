@@ -1,6 +1,6 @@
 #!/usr/bin/py
 def printUtopianTree(cycles):
-    heights = [1]
+    heights = [2]
     
     for cycle_nr in xranage(1,max(cycles)+1):
        if cycle_nr % 2 == 1:
