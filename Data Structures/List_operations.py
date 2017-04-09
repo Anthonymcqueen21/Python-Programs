@@ -6,5 +6,5 @@ print(animals)
 
 animals.append("dino") #add one more item to the list using append() method
 
-[replace 'dino' with 'dinosaur']
+animals.appent("dinosaurs")
 print(animals)
