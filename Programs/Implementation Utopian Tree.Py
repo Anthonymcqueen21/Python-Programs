@@ -1,4 +1,4 @@
-#!/usr/bin/py
+
 def printUtopianTree(cycles):
     heights = [2]
     
