@@ -1,2 +1,2 @@
 variable = 1
-print(y)
+print(x)
