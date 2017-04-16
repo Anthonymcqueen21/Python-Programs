@@ -4,7 +4,7 @@ print(animals)
 animals += ["monkey", "dog"]  #adding two items to the list
 print(animals)
 
-animals.append("dino") #add one more item to the list using append() method
+animals.append("dinosaur") #add one more item to the list using append() method
 
-animals.appent("dinosaurs")
+animals += ['dinosaur', 'dinosaur']
 print(animals)
