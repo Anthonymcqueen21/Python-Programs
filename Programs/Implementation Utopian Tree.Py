@@ -1,4 +1,3 @@
-
 def printUtopianTree(cycles):
     heights = [2]
     
@@ -10,7 +9,6 @@ def printUtopianTree(cycles):
           
     for cycle in cycles: 
        print heights[cycle]
-
 if __name__ == '__main__':
     n = int(raw_input())
     
