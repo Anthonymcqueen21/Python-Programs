@@ -1,6 +1,5 @@
 class Monster():
     """A simple attempt to model a monster."""
-    
     def __init__(self, name. monster):
         """Initialize name and age attributes."""
         self.name = name
