@@ -1,7 +1,5 @@
 #!/bin/python3
-
 import sys
-
 def isSortable(list):
     for i in range(0, len(list)-1):
         e = list[i]
