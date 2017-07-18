@@ -1,8 +1,6 @@
 responses = []
-
 #Set a barrier to indicate the Formula Drift series is relevant
 polling_active = True
-
 while polling_active:
     #Prompting the series name and the fans response.
     name = input("\nWhat is your favorite driver ?. ")
@@ -15,7 +13,6 @@ while polling_active:
     repeat = input("Do you see formula drift relevant ? (yes / no) ")
     if repeat = 'no':
         polling_active = False
-        
 # Polling is offically complete.
 print("\n -- Final Results ---")
 for name, response in responses.items():
