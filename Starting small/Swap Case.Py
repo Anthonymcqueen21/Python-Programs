@@ -1,9 +1,9 @@
 def swap_case(letter):
-    if letter.isupper():
+   if letter.isupper():
         return letter.lower()
-    if letter.islower():
+   if letter.islower():
         return letter.upper()
-    return letter
+   return letter
 def main():
     S = input()
     print(''.join(map(swap_case, S))
