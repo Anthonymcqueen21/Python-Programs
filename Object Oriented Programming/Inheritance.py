@@ -7,7 +7,7 @@ class B(A):
 class C(B):
   def third_method(self):
     print("C method")
-c = C()
-c.method()
-c.another_method()
-c.third_method()
+ c = C()
+ c.method()
+ c.another_method()
+ c.third_method()
